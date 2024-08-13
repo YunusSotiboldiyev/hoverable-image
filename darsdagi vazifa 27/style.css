@@ -1,0 +1,36 @@
+.card{
+     width: 40%;
+     height: 50vh;
+     margin: auto;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex; 
+     justify-content: space-between; 
+}
+.card__in{
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 25%; 
+     height: 50vh;
+     border-radius: 20px;
+     transition: all 0.5s ease-in-out;
+     margin: 0 5px 5px;
+}
+.card .card__item1{
+     background-image: url(./images/1.jpg);
+}
+.card .card__item2{
+     background-image: url(./images/2.jpg);
+}
+.card .card__item3{
+     background-image: url(./images/3.jpg);
+}
+.card .card__item4{
+     background-image: url(./images/4.jpg);
+}
+.card__in:hover{
+     width: 60%; 
+}
